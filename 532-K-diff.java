@@ -23,12 +23,12 @@ class Solution {
         
         if(k==0)
         {
-            for(int n:nums)
+            for(int n:nums)                    
             {
                 if(!set1.contains(n))
                 {set1.add(n);}
                 else{
-                    if(!set2.contains(n)) ans++;
+                    if(!set2.contains(n)) ans++;     //统计出单一重复部分
                     set2.add(n);
                 }
             }
