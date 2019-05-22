@@ -15,7 +15,7 @@ class Solution {
     {
         for(int i = 0; i < bed.length; i++)
         {
-            if(bed[i] ==0 && (i==0 || bed[i-1] == 0) && (i == bed.length -1 || bed[i+1] == 0))   //难点在于考虑三个边界点
+            if(bed[i] ==0 && (i==0 || bed[i-1] == 0) && (i == bed.length -1 || bed[i+1] == 0))   //难点在于考虑三个边界点，用了一个并集
             {
                 bed[i] = 1;
                 n--;
