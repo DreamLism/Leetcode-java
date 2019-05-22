@@ -25,7 +25,7 @@ class Solution {
 }
 
 
-//法二:看的一个大神的，真的快
+//法二:看的一个大神的，真的快，求最值似乎不用排序更快，具体场景还是不很清楚。
 class Solution {
     public int maximumProduct(int[] nums) {
         int max1 = Integer.MIN_VALUE, max2 = Integer.MIN_VALUE, max3 = Integer.MIN_VALUE, min1 = Integer.MAX_VALUE, min2 = Integer.MAX_VALUE;
