@@ -38,7 +38,7 @@ class Solution {
             if(A[j]%2==0)
             {
                 int tmp = A[i];
-                A[i++] = A[j];
+                A[i++] = A[j];                 //j只负责查找所有偶数，之后与奇数交换。因为j在i前，i不可能遇到偶数，都是奇数。
                 A[j] = tmp;
             }
         return A;
